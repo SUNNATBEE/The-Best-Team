@@ -150,7 +150,7 @@ body{
 .hero-inner__left::before {
     position: absolute;
     top: 10px;
-    left: -140px;
+    left: -205px;
     margin-bottom: 70px;
     content: "";
     display: inline-block;
@@ -247,7 +247,7 @@ body{
 }
 .build-section__right::after {
     position: absolute;
-    right: -180px;
+    right: -222px;
     top: 290px;
     content: "";
     display: inline-block;
@@ -481,8 +481,89 @@ only screen and (                min-resolution: 2dppx) {
     /* Footer start  */
  
 .site-footer{
+    background-color: #002529;
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+.site-footer__info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.site-footer__about{
+    /* margin-bottom: 45px; */
+    
+}
+
+.site-footer__more-list{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin-top: 40px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.site-footer__more-link{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.site-footer__more-link:hover{
+    color: #F67E7E;
+    transition: 0.5s ease;
 
 }
+.site-footer__item{
+    list-style: none;
+}
+.site-footer__text{
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 25px;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.6;
+}
+.site-footer__list{
+    padding: 0;
+    margin-left:125px ;
+}
+.site-footer__message-list{
+    display: flex;
+    list-style: none;
+    margin-left: 20px;
+    margin-bottom: 40px;
+}
+.site-footer__mini-box{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-left: 400px;
+}
+.site-footer__message-item{
+    margin-left: 16px;
+}
+.site-footer__mini-text{
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: right;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.6;
+}
+.site-footer__message-links{
+    color: #fff;
+    text-decoration: none;
+}
+.site-footer__message-links:hover{
+    color: #F67E7E;
+    transition: 0.5s ease;
+}
+
 
 
     /* Footer start  */
