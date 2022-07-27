@@ -132,9 +132,79 @@ body{
 
     /* Hero section start */
 
-.hero-section{
-
+.hero-section {
+    overflow: hidden;
+    background-color: #014E56;
+    padding-top: 60px;
+    padding-bottom: 250px;
 }
+.hero-section__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.hero-inner__left {
+    position: relative;
+    width: 600px;
+}
+.hero-inner__left::before {
+    position: absolute;
+    top: 10px;
+    left: -140px;
+    margin-bottom: 70px;
+    content: "";
+    display: inline-block;
+    width: 100px;
+    height: 400px;
+    background-image: url("../images/left-cercle.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.hero-inner__heading {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 100px;
+    color: var(--main-body-bg-color);
+}
+.talant {
+    color: var(--main-text-color);
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 100px;
+}
+.hero-inner__right {
+    position: relative;
+    width: 445px;
+}
+.hero-inner__right::before {
+    margin-bottom: 70px;
+    content: "";
+    display: inline-block;
+    width: 50px;
+    height: 4px;
+    background-color: #79C8C7;
+}
+.hero-inner__right::after {
+    position: absolute;
+    top: 347px;
+    margin-bottom: 70px;
+    content: "";
+    display: inline-block;
+    width: 400px;
+    height: 400px;
+    background-image: url("../images/cercle.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.hero-inner__title {
+    margin-bottom: 0;
+    font-weight: var(--main-regular-font-weight);
+    font-size: 18px;
+    line-height: 28px;
+    color: var(--main-body-bg-color);
+}       
 
      /* Hero section finish */
 
