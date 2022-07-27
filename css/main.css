@@ -307,6 +307,175 @@ body{
     opacity: 0.8;
 }
 /* build section start  */
+/* Top Company start */
+
+.top-company{
+    position: relative;
+    padding-top: 140px;
+    padding-bottom: 151px;
+    background-color: #004047;
+    background-image: url("../images/delivering-decor.svg");
+    background-position: calc(50% - 700px) calc(50% - 280px);
+    background-repeat: no-repeat;
+    background-size: 147px 100px;
+}
+.top-company__box{
+    width: 932px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+.top-company__title{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.green{
+    color: #2C6269;
+}
+.top-company__list{
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+.top-company__list::after{
+    position: absolute;
+    top: calc(50% + 285px);
+    left: calc(50% + 558px);
+    background-image: url("../images/Group 8.svg");
+    background-repeat: no-repeat;
+    content: "";
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    /* background-size: 200px 200px; */
+    
+}
+.top-company__item{
+    position: relative;
+    list-style: none;
+    padding-top: 55px;
+    
+}
+.top-company__item::before{
+    position: absolute;
+    top: 20px;
+    left: 140px;
+    background-image: url("../images/iz.svg");
+    content: "";
+    background-repeat: no-repeat;
+    display: block;
+    width: 67px;
+    height: 56px;
+    background-size: 67px 56px;
+}
+.top-company__text{
+    position: relative;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 350px;
+    text-align: center;
+    margin: 0;
+}
+.top-company__founder{
+    display: block;
+    font-weight: 700;
+    font-size: 18px;
+    margin-top: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #79C8C7;
+}
+.top-company__product{
+    display: block;
+    font-size: 13px;
+    line-height: 18px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.top-company__product::after{
+    position: relative;
+    top: 35px;
+    left: 145px;
+    background-image: url("../images/kady.png");
+    background-repeat: no-repeat;
+    background-size: 62px 62px;
+    width: 62px;
+    height: 62px;
+    content: "";
+    display: block;
+}
+.top-company--Aisha:after{
+    background-image: url("../images/aiysha.png");
+}
+.top-company--artur::after{
+    background-image: url("../images/arthur.png");
+}
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) {
+    
+    .top-company__product::after{
+        background-image: url("../images/kady@2x.png");
+    }
+    .top-company--Aisha:after{
+        background-image: url("../images/aiysha@2x.png");
+    }
+    .top-company--artur::after{
+        background-image: url("../images/arthur@2x.png");
+    }
+}
+/* Top Company finish */
+
+/* Article start */
+.article{
+    background-image: url("../images/bottom-cercle.svg");
+    background-color:  #F67E7E;
+    background-repeat: no-repeat;
+    background-position: calc(50% - 659px) calc(50% + 27px);
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+.article__box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.article__title{
+    margin-right: 260px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    color: #012F34;
+}
+.article__link{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    color: #012F34;
+    padding: 9px 33px;
+    background-color: transparent;
+    border: 2px solid #012F34;
+    border-radius: 24px;
+    text-decoration: none;
+}
+.article__link:hover{
+    color: #fff;
+    border: 2px solid white;
+    background-color: #012F34;
+    transition: 0.5s ease;
+}
+
+/* Article finish */
      /* Main finish */
 
     /* Footer start  */
