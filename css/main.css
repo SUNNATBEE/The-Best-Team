@@ -70,8 +70,60 @@ body{
 }
    
     /* Header start */
-.site-header{
 
+.site-header {
+    padding-top: 73px;
+    padding-bottom: 73px;
+    background-color: #014E56;
+}
+.site-header__wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.header-wrapper__logo {
+    display: inline-block;
+    text-decoration: none;
+}
+.header-wrapper__img {
+    display: inline-block;
+}
+.header-wrapper__list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 0 auto 0 80px;
+    padding-left: 0;
+}
+.header-list__item {
+    margin-right: 40px;
+}
+.header-list__item:last-child {
+    margin-right: 0;
+}
+.header-list__link {
+    text-decoration: none;
+    font-weight: var(--main-regular-font-weight);
+    font-size: 18px;
+    line-height: 28px;
+    color: var(--main-body-bg-color);
+}
+.header-list__link:hover {
+    color: var(--main-text-color);
+}
+.header-wrapper__contact {
+    padding: 10px 32px;
+    font-weight: var(--main-regular-font-weight);
+    font-size: 18px;
+    line-height: 28px;
+    text-decoration: none;
+    color: var(--main-body-bg-color);
+    border: 2px solid #ffffff;
+    border-radius: 24px;
+}
+.header-wrapper__contact:hover {
+    background-color: var(--main-body-bg-color);
+    color: #002529;
 }
 
     /* Header finish */
