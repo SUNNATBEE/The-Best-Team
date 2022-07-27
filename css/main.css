@@ -207,7 +207,106 @@ body{
 }       
 
      /* Hero section finish */
-
+/* build section start  */
+.build-section {
+    overflow: hidden;
+    padding-top: 250px;
+    padding-bottom: 120px;
+    background-color: #002529;
+}
+.build-section__wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+.build-section__left {
+    position: relative;
+    width: 440px;
+}
+.build-section__left::before {
+    position: absolute;
+    top: -80px;
+    margin-bottom: 70px;
+    content: "";
+    display: inline-block;
+    width: 50px;
+    height: 4px;
+    background-color: #F67E7E;
+}
+.build-section__heading {
+    margin-top: 0;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    color: var(--main-body-bg-color);
+}
+.build-section__right {
+    position: relative;
+    width: 500px;
+    padding-left: 0;
+    margin: 0;
+}
+.build-section__right::after {
+    position: absolute;
+    right: -180px;
+    top: 290px;
+    content: "";
+    display: inline-block;
+    width: 120px;
+    height: 250px;
+    background-image: url("../images/cercle-right.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.build-list__item {
+    display: flex;
+    margin-bottom: 30px;
+    align-items: center;
+}
+.build-list__item:first-child::before {
+    content: "";
+    display: inline-block;
+    margin-right: 20px;
+    width: 110px;
+    height: 100px;
+    background-image: url("../images/experienced.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.build-list__item:nth-child(2)::before {
+    content: "";
+    display: inline-block;
+    margin-right: 20px;
+    width: 110px;
+    height: 100px;
+    background-image: url("../images/easy.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.build-list__item:last-child::before {
+    content: "";
+    display: inline-block;
+    margin-right: 20px;
+    width: 110px;
+    height: 100px;
+    background-image: url("../images/enhenced.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.build-item-box__heading {
+    margin-top: 0;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    color: var(--main-text-color);
+}
+.build-item-box__title {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 25px;
+    color: var(--main-body-bg-color);
+    opacity: 0.8;
+}
+/* build section start  */
      /* Main finish */
 
     /* Footer start  */
