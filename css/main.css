@@ -698,6 +698,7 @@ only screen and (                min-resolution: 2dppx) {
 
 .site-main__wrapper {
     display: flex;
+    align-items: center;
     justify-content: space-between;
 }
 .contact-wrapper__left {
