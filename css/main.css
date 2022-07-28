@@ -374,8 +374,8 @@ body{
 }
 .top-company__list::after{
     position: absolute;
-    top: calc(50% + 285px);
-    left: calc(50% + 558px);
+    top: calc(50% + 185px);
+    left: calc(50% + 660px);
     background-image: url("../images/Group 8.svg");
     background-repeat: no-repeat;
     content: "";
