@@ -497,8 +497,8 @@ only screen and (                min-resolution: 2dppx) {
 .directors-inner-list::before {
     position: absolute;
     z-index: 2;
-    top: -260px;
-    left: -120px;
+    top: -257px;
+    left: -205px;
     content: "";
     display: inline-block;
     width: 100px;
@@ -511,7 +511,7 @@ only screen and (                min-resolution: 2dppx) {
     position: absolute;
     z-index: 3;
     top: 690px;
-    right: -115px;
+    right: -204px;
     content: "";
     display: inline-block;
     width: 130px;
